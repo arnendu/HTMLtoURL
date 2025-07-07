@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Room 205 - Services</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fffde7;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #fbc02d;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .service-box {
+      background-color: #ffffff;
+      border: 2px solid #fbc02d;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .service-box h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .button {
+      background-color: #fbc02d;
+      color: #000;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .button:hover {
+      background-color: #f9a825;
+    }
+
+    .room-label {
+      margin-bottom: 15px;
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to Room 205 Services</h1>
+  <div class="room-label">Room: 205</div>
+
+  <div class="services">
+    <div class="service-box">
+      <h2>Room Cleaning</h2>
+      <a class="button" href="request.html?service=cleaning&room=205">Request Now</a>
+    </div>
+    <div class="service-box">
+      <h2>Fresh Towels</h2>
+      <a class="button" href="request.html?service=towels&room=205">Request Now</a>
+    </div>
+    <div class="service-box">
+      <h2>Food Order</h2>
+      <a class="button" href="request.html?service=food&room=205">Request Now</a>
+    </div>
+    <div class="service-box">
+      <h2>Wake-Up Call</h2>
+      <a class="button" href="request.html?service=wakeup&room=205">Request Now</a>
+    </div>
+    <div class="service-box">
+      <h2>Laundry</h2>
+      <a class="button" href="request.html?service=laundry&room=205">Request Now</a>
+    </div>
+    <div class="service-box">
+      <h2>Airport Shuttle</h2>
+      <a class="button" href="request.html?service=airport&room=205">Request Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
